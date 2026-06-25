@@ -11,9 +11,8 @@ import seaborn as sns
 
 warnings.filterwarnings("ignore")
 
-# ============================================================
-# 0. CAU HINH CHUNG
-# ============================================================
+#CAU HINH CHUNG
+
 CSV_PATH = "cleaned.csv"
 OUTPUT_DIR = "output_images"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -141,9 +140,8 @@ ax.set_xlabel("Trieu VND / m2")
 ax.set_ylabel("So luong tin")
 save_fig(fig, "03_phan_phoi_gia_per_m2.png")
 
-# ============================================================
+
 # 4. PHAN TICH THEO VI TRI (THANH PHO / QUAN HUYEN)
-# ============================================================
 section("4. PHAN TICH THEO VI TRI")
 
 city_stats = df.groupby("city_norm").agg(
@@ -402,7 +400,7 @@ insights = [
 for line in insights:
     print(line)
 
-# Luu insight ra file text de tien tham khao
+# Luu insight ra file text 
 with open(os.path.join(OUTPUT_DIR, "insights_summary.txt"), "w", encoding="utf-8") as f:
     f.write("TONG HOP INSIGHT - EDA DU LIEU BAT DONG SAN\n")
     f.write("=" * 60 + "\n\n")
