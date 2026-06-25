@@ -407,7 +407,4 @@ with open(os.path.join(OUTPUT_DIR, "insights_summary.txt"), "w", encoding="utf-8
     for line in insights:
         f.write(line + "\n\n")
 
-print(f"\n  -> Da luu file tong hop insight: {os.path.join(OUTPUT_DIR, 'insights_summary.txt')}")
-
 section("HOAN THANH EDA")
-print(f"Tat ca hinh anh da duoc luu trong thu muc: ./{OUTPUT_DIR}/")
