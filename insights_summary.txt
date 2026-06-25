@@ -1,0 +1,18 @@
+TONG HOP INSIGHT - EDA DU LIEU BAT DONG SAN
+
+1. Tong cong co 14,741 tin rao ban BDS, tap trung tai 2 thanh pho lon: Ho_Chi_Minh (9,772 tin) va Ha_Noi (4,969 tin).
+
+2. Gia BDS trung vi toan thi truong la 6.00 ty VND, nhung phan phoi gia bi lech phai manh (mean 8.71 ty > median), cho thay co mot so it BDS gia rat cao keo gia trung binh len.
+
+3. Loai BDS pho bien nhat la 'Nhà ở' (10,297 tin, 69.9%), trong khi loai co gia trung binh cao nhat la 'Văn phòng, Mặt bằng kinh doanh' (21.78 ty VND).
+
+4. Quan/Huyen co gia/m2 trung binh cao nhat (trong nhom >=30 tin) la 'Hoan_Kiem' (Ha_Noi) voi 433.5 trieu VND/m2.
+
+5. Quan/Huyen co nguon cung (so tin rao ban) lon nhat la 'Thu_Duc' (Ho_Chi_Minh) voi 1360 tin.
+
+6. Tuong quan giua Dien tich va Gia la 0.31 - tuong quan duong vua phai, dien tich lon hon co xu huong gia cao hon nhung khong tuyet doi tuyen tinh.
+
+7. Loai cau hinh phong ngu pho bien nhat la 3 phong ngu (5,312 tin).
+
+8. Mot so cot quan trong bi thieu du lieu kha nhieu: huong nha (direction) thieu 75%, so tang (floors) thieu 49%, dien tich su dung (living_size) thieu 62% - can luu y khi phan tich sau hoac thu thap them.
+
